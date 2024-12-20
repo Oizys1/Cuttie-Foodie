@@ -1,0 +1,156 @@
+* {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;  /* Remove default margins */
+    padding: 0;  /* Remove default padding */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: peachpuff;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: sienna;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    width: 100vw; /* Ensure it spans the entire viewport width */
+    position: relative; /* Ensure it aligns properly */
+    left: 0;
+    top: 0;
+}
+
+.logo img {
+    height: 110px;
+    width: 110px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-size: medium;
+}
+
+.nav-links li {
+    margin: 0 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.nav-links a:hover {
+    background-color: #ffa500;
+}
+
+.inquiry-container {
+    background-color: #fff9f3;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 2px solid #f4a261;
+    width: 90%;
+    max-width: 900px;
+    margin: 20px 0;
+}
+
+.inquiry-container h2 {
+    font-size: 1.5em;
+    color: #e76f51;
+    margin-bottom: 8px;
+}
+
+.inquiry-container p {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 0.9em;
+    color: #e76f51;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f4b393;
+    border-radius: 10px;
+    font-size: 0.9em;
+    outline: none;
+    background-color: #fffaf0;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #e76f51;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 10px;
+    color: #333;
+    font-size: medium;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    background-color: sienna;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#a {
+    font-family: 'Times New Roman', Times, serif;
+}

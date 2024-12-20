@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <title>Feedback</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Media/logos.png" alt="Logo" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="home page.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="service.html">Products</a></li>
+                <li><a href="contact us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <br> 
+    <br>
+    <form id="feedbackForm" onsubmit="handleSubmit(event)">
+        <table class="inquiry-container">
+            <tr>
+                <td colspan="2">
+                    <h2>FEEDBACK FORM</h2>
+                    <p>Thank you for taking the time to provide your feedback! Your thoughts and opinions are invaluable to us and will help us improve our services.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name">Full Name</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Address</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number</label></td>
+                <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message</label></td>
+                <td><textarea id="message" name="message" rows="4" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="submit-container">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <footer class="footer">
+        <p class="a">Serving good quality of frozen croissant and mouth-watering different pastry. <br>
+            Copyright ©2024. All Rights Reserved Cuttie Foodie <br>
+        <a id="a" href="Our Teams.html"> Our Teams</a></p> 
+    </footer>
+    <script src="feedback.js"></script>
+</body>
+</html>

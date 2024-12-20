@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquire Us</title>
+    <link rel="stylesheet" href="Inquireus.css">
+    <script src="inquire.js" defer></script> <!-- Link to the JavaScript file -->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Media/logos.png" alt="Logo" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="home page.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="service.html">Products</a></li>
+                <li><a href="contact us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <br> 
+    <br>
+    <div class="inquiry-container">
+        <h2>Get in Touch with Us</h2>
+        <p>Have a question about our pastries? Fill out the form below, and we'll be happy to assist you!</p>
+        <form id="inquiryForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="submit-container">
+                <button type="submit">Send Inquiry</button>
+            </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>Serving good quality of frozen croissant and mouth-watering different pastry. <br>
+            Copyright ©2024. All Rights Reserved Cuttie Foodie <br>
+        <a id="a" href="Our Teams.html"> Our Teams</a></p> 
+    </footer>
+</body>
+</html>

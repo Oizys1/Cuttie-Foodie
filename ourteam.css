@@ -1,0 +1,46 @@
+body{
+    height: 500px;
+}
+h1{
+    text-align: center;
+    color: brown;
+    font-family: cursive;
+}
+h4{
+    text-align: center;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    width:20px;
+    height:20px;
+    border-radius:800px;
+}
+td{
+    background-color:white;
+    border-radius: 20px;
+    text-align: center;
+    padding:40px;
+}
+#p{
+    text-align: center;
+    font-size: larger;
+}
+p{
+    text-align: center;
+    font-size: medium;
+}
+.picture{
+    width: 127px;
+    height: 127px;
+    
+}
+table{
+    width: 1330px;
+    height: 500px;
+    align-items: center;
+    border-spacing:20px;
+    text-align: center;
+    padding: 20px;
+
+}

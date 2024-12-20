@@ -1,0 +1,164 @@
+body {
+    margin: 0; /* Remove body margins */
+    padding: 0;
+    background-color: #eaded0; /* Keep the light background for consistency */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: sienna; 
+    width: 100%; 
+    padding: 0 50px;
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0; /* Ensure no extra space */
+    padding: 0;
+    font-family: cursive;
+}
+
+.nav-links li {
+    margin: 0 20px; /* Control spacing between links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-size: large;
+}
+
+.nav-links a:hover {
+    background-color: #ffa500;
+}
+
+.logo img {
+    height: 110px;
+    width: 110px;
+    margin-bottom: 0%;
+    align-items: left;
+}
+
+.inquiry-container {
+    background-color: #fff9f3;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 2px solid lightgreen;
+    color: #d35400;
+    width: 900px; /* Limits the width of the container */
+    height: 500px;
+    margin: 0 auto 30px; /* Adds bottom margin to create space */
+}    
+
+
+form {
+display: flex;
+flex-direction: column;
+gap: 15px; /* Add spacing between form elements */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+width: 90%;
+padding: 10px;
+border: 1px solid #f4b393;
+border-radius: 10px;
+font-size: 1em;
+background-color: #fffaf0;
+}
+
+button {
+background-color: lightgreen;
+border: none;
+color: white;
+padding: 12px 20px;
+font-size: 1em;
+border-radius: 15px;
+cursor: pointer;
+transition: background 0.3s;
+width: 100%;
+}
+
+button:hover {
+background-color: #d35400;
+}
+
+.footer {
+text-align: center;
+padding: 1em 10px;
+font-size: medium;
+background-color: sienna;
+color: white;
+width: 100%;
+}
+
+/* Responsive Design: Adjustments for different screen sizes */
+@media screen and (max-width: 768px) {
+.navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-links {
+    flex-direction: column; /* Stack navigation links */
+    gap: 10px;
+}
+
+.logo img {
+    height: 110px;
+    width: 110px;
+}
+
+.inquiry-container {
+    padding: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    font-size: 0.9em;
+}
+
+button {
+    font-size: 0.9em;
+}
+}
+
+@media screen and (max-width: 480px) {
+.navbar {
+    padding: 5px 10px;
+}
+
+.nav-links a {
+    font-size: small; /* Reduce font size for smaller screens */
+    padding: 8px;
+}
+
+.inquiry-container h2 {
+    font-size: 1.2em;
+}
+
+.inquiry-container p {
+    font-size: 0.8em;
+}
+
+button {
+    font-size: 0.8em;
+    padding: 10px;
+}
+}

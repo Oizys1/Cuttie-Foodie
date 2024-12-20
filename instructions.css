@@ -1,0 +1,85 @@
+body {
+    background-color: #eaded0;
+    margin: 0%;
+}
+
+.img1 {
+    width: 120px;
+}
+
+a {
+    color: white;
+    font-family: cursive;
+    font-size: large;
+    text-decoration-line: none;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#a {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img2 {
+    width: 1200px;
+    height: 1300px;
+    transition: transform 0.3s ease; /* Add transition for the transform property */
+}
+
+.img2:hover {
+    transform: scale(1.05); /* Scale the image slightly on hover */
+}
+
+header {
+    background-color: sienna;
+}
+
+footer {
+    background-color: sienna;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: sienna;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.logo img {
+    height: 110px;
+    width: 110px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    font-size: large;
+}
+
+.nav-links li {
+    margin: 0 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 15px;
+}
+
+.nav-links a:hover {
+    background-color: #ffa500;
+}
